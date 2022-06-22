@@ -1,0 +1,46 @@
+/* @theme eipt-avance */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Righteous+Merriweather&display=swap');
+
+:root {
+    width: 1280px;
+    height: 720px;
+    font-size: 40px;
+    padding: 1rem;
+    --violin: #a54075;
+    --main-bg-color: #a54075;
+    font-family: Merriweather;
+}
+
+h1,
+h2 {
+    font-size: 1.5rem;
+    font-family: Righteous, sans-serif;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: var(--violin);
+}
+
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+footer {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    height: 20px;
+}
+
+footer {
+    bottom: 30px;
+    text-align: center;
+}
